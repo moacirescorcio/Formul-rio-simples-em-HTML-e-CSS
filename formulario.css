@@ -1,0 +1,136 @@
+* { 
+    margin: auto;
+    padding: 2px;
+    
+    box-sizing: border-box;
+    
+}
+
+#container{
+    
+    border: 0.2px solid gray;
+    
+    width: 580px;
+    height: 500px;
+    
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    background-color: #E5D0CC;
+}
+
+div, input, label{
+    
+    font-family: arial;
+    font-size: 13px;
+    color:;
+    
+    
+    padding: 2px;
+    margin-bottom: 10px;
+} 
+
+
+h1{
+    display: flex;
+    
+    font-size: 25px;
+    color: #172121;
+    
+    justify-content: center;
+}
+
+
+#titulo_subtitulo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#nome_sobrenome{
+    
+    display: inline-block;
+    
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+
+#container{
+    
+    padding: 5px;
+    
+    background-color: #BFACB5;
+    border-radius: 5px;
+}
+
+p, label{
+    margin-bottom: 4px;
+    color: #172121;
+}
+
+#escolha{
+    
+    display: block;
+    
+    
+}
+
+#caixa_info{
+    
+    text-align: start;
+    
+    width: 360px;
+    height: 150px;
+}
+
+#bt_limpar, #bt_enviar{
+    border-radius: 5px;
+    
+    background-color: #172121;
+    font-family: arial;
+    color: white;
+    font-style: bold;
+    
+    width: 100px;
+    height: 35px;
+}
+
+#botoes{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+input{
+    
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border: 0.2px solid gray;
+    
+    color:#172121;
+    
+}
+
+input:checked{
+    background-color: #172121;
+}
+
+textarea{
+    width: 550px;
+    height: 100px;
+    
+    margin-bottom: 20px;
+}
+
+#bt_enviar:hover, #bt_limpar:hover{
+    background-color: #BFACB5;
+    cursor: pointer;
+}

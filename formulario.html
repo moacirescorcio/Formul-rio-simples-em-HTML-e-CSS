@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+</head>
+<body>
+    <!--Título e subtítulo-->
+    <div id="titulo_subtitulo">
+        <h1 id="titulo">Formulário</h1>
+        <p id="subtitulo">Complete com suas informações</p>
+    </div>
+    
+    <!--Bloco de nome e sobrenome-->
+    <div id="container">
+        <div id="nome_sobrenome">
+            <label> <strong>Nome: </strong><input type="text" id="nome" required></label> <label id="sobrenome"> <strong> Sobrenome: </strong>              <input type="text" id="sobrenome" required></label>
+        </div>
+
+        <!--Bloco de principais informações-->
+
+        <div id="bloco_principal">
+            <p id="email"><strong>Email: <input type="email"  id="email" required></strong></p>
+            <p id="data_nasc"><strong> Data de nascimento: </strong><input type="date" required id="data_nasc"></p>
+            <p id="texto" ><strong> Em qual área pretende se especializar?</strong></p>
+
+        <!--Bloco de radio de escolha-->
+
+            <div id="escolha">
+                <label><input type="radio" name="carreira" value="Front-End" id="front-end"> Front-End</label>
+                <label><input type="radio" name="carreira" value="Back-End" id="back-end"> Back-End</label>
+                <label><input type="radio" name="carreira" value="Full-stack" id="full-stack"> Full-Stack </label>
+            </div>
+
+        <!--Bloco de caixa de escolha de linguaguens-->
+            <div id="marcacao">
+                <p><strong>Selecione as tecnologias que utiliza:</strong></p>
+                <label>
+                     <input type="checkbox" name="linguagem" value="HTML"> HTML
+
+                </label>
+
+                <label>
+                     <input type="checkbox" name="linguagem" value="CSS"> CSS
+
+                </label>
+
+                <label>
+                     <input type="checkbox" name="linguagem" value="Javascript"> Javascript
+
+                </label>
+                <label>
+                     <input type="checkbox" name="linguagem" value="PHP"> PHP
+
+                </label>
+
+                <label>
+                     <input type="checkbox" name="linguagem" value="C#"> C#
+
+                </label>
+
+                <label>
+                     <input type="checkbox" name="linguagem" value="Python"> Python
+
+                </label>
+            </div>
+
+            <!--Bloco de apresentação pessoal-->
+            <div id="informacoes">
+                <p><strong>Fale um pouco soubre você e suas experiências</strong><p>
+                <textarea></textarea>
+            </div>
+
+            <!--Bloco botão de enviar e limpar-->
+            <div id="botoes">
+                <input id="bt_enviar" type="submit" value="Enviar">
+                <input id="bt_limpar" type="reset" value="Limpar">
+            </div>
+    </div>
+</body>
+</html>
